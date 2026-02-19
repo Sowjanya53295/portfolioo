@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personal Portifle</title>
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/c4254e24a8.js"
+            crossorigin="anonymous"></script>
+            <!-- Font Awesome 5 (supports fas/fab/fa-* you're using) -->
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  integrity="sha512-dymIjtVZ3Q5Kf3r0c7h4jQkzsg6W2R6B6p4xY3pQj4w3q4Y5lQ5r8xv5nGv6H0J9vJYzQn5nVw1bXQ1Dk6xZow=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Boxicons (for bx / bxl-*) -->
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+
+<!-- (optional) real browser tab favicon -->
+<link rel="icon" type="image/png" href="/assets/favicon.png" />
+
+    </head>
+    <body>
+       <header>
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+
+    <!-- Open Button -->
+    <div class="menu-toggle" id="open-btn">☰</div>
+
+    <!-- Close Button -->
+    <div class="menu-toggle" id="close-btn" style="display: none;">✖</div>
+
+    <!-- Nav Links -->
+    <ul class="nav-links" id="nav-links">
+     <li><a href="#header-text">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                         <li><a href="#skills">Skills</a></li>
+                        <li><a href="#services">Services</a></li>      
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#youtube">Youtube</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+    </ul>
+  </nav>
+  <div id="header-text">
+                      <a href="#header-text"></a>
+                       
+                    <h1>Hi, I'm <span>Sowjanya</span><p></p></h1>
+                   
+                </div>
+</header>
+
+
+        <!-- <div class="header">
+            <div class="container">
+                <nav>
+                    <img src="" class="logo"/>
+                    <ul list-style-type :circle id="sidemenu">
+                        <li><a href="#header-text">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                         <li><a href="#skills">Skills</a></li>
+                        <li><a href="#services">Services</a></li>      
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#youtube">Youtube</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div id="header-text">
+                      <a href="#header-text"></a>
+                    <h1>Hi, I am <span>Sowjanya</span></h1>
+                   
+                </div>
+            </div>
+        </div> -->
+        
+        
+        <div class="about" id="about"></div>
+            <div class="container">
+                <div class="row">
+                          <a href="#about"></a>
+                    <div class="about-col-1">
+                        <img src=""/>
+                    </div>
+                    <div class="about-col-2">
+                       <h1 class="sub-title"><i class="fas fa-user"></i> About Me</h1>
+                        <p>I'm Mandadapu Sowjanya, a Computer Science Engineering graduate (B.Tech, 2024)
+                             with a strong foundation in designing and developing scalable and secure
+microservices architecture. Strong expertise in Java Core, OOPs, Spring Boot, Microservices,
+RESTful Web Services, MYSQL, JDBC, Servlets, JSP, Hibernate.  Strong expertise in HTML, CSS, JavaScript, React.js. Proven track record of reducing development errors by 40%, optimizing
+API performance by 30%, and enhancing application reliability through microservices and cloud based solutions. 
+Adept working in agile teams and delivering high-performance applications.
+</p>
+                            
+                        <div class="tab-titles">
+                             <p class="tab-links"
+                                onclick="opentab('experience')">Experience</p> 
+                             <p class="tab-links"
+                                onclick="opentab('education')">Education</p>                       
+                            <p class="tab-links active-link"
+                                onclick="opentab('certification')">Certifications</p>
+                        </div>
+                        
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>HulkHire Tech | Jun 2025 – Aug 2025 | Hyderabad </span><br>Java Developer Trainee<br><br> <p>• Developed and optimized a scalable payment integration system, improving payment
+status tracking efficiency.<br>
+• Secured APIs using HmacSHA256 and Spring Security to ensure request authentication and
+data integrity.<br>
+• Led multi-region deployments for services, automating the process with AWS (EC2, RDS),
+reducing manual deployment efforts by 50%.<br></p></li>
+                                <li><span>Virtusa Consulting Services | Aug 2024 – Apr 2025 | Hyderabad</span><br>Analyst<br><br>
+<p>• Analyzed and processed large datasets using Python and SQL to optimize
+advertising campaign performance, resulting in a 20% increase in ROI and a 15%
+reduction in AHT.<br>
+• Interpreted client data to uncover trends and actionable insights, enhancing KPIs
+such as First Pass Yield (FPY) and Average Handling Time (AHT).<br>
+• Validated and categorized client-provided labels to ensure data integrity,
+improving reporting accuracy by 18%.</p></li>
+
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024 | B.TECH | Computer Science and Engineering</span><br>NRI Institute of
+                                    technology<br> CGPA : 8.6 / 10</li>
+                                <li><span>2018-2020 | Intermediate | MPC </span><br>Narayana Junior
+                                    College<br> CGPA : 9.3 / 10</li>
+                                <li><span>2017-2018 | SSC</span><br>Oxford NRI High
+                                    School <br> CGPA : 9.7 / 10</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-tab" id="certification">
+                            <ul>
+                                <li><span> HulkHire Tech Intern</span><br>Internship</li>
+                                <li><span>Joy of Computing Using Python with 75% score </span><br>NPTEL</li>
+                                <li><span>SQL Basic </span><br>HackerRank</li>
+                            </ul>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <section id="skills" class="skills-section">
+        <h1 class="sub-title"><i class="fas fa-laptop-code"></i> Skills</h1>
+  <div class="skills-container">
+    <div class="skill-item">
+       
+         <a href="#skills"></a>
+        
+                   
+      <ul>
+        <li><strong>Programming : </strong> Java, Python, JavaScript<br></li>
+        <li><strong>Frameworks : </strong> Spring Boot, Spring JDBC, Hibernate<br></li>
+        <li><strong>Databases : </strong> MySQL (RDS), JDBC, Redis<br></li>
+        <li><strong>Web : </strong> HTML, CSS, Servlets, JSP<br></li>
+        <li><strong>APIs & Tools : </strong> RESTful APIs, Postman<br></li>
+      </ul>
+    </div>
+    <div class="skill-item">
+     
+      <ul>
+        
+        
+        <li><strong>Cloud : </strong> AWS (EC2, RDS, Secrets Manager)</li>
+         <li><strong>Servers & Build : </strong> Tomcat, Maven<br></li>
+        <li><strong><strong>Methodologies : </strong> Agile, Scrum, Jira<br></li>
+        <li><strong>Version Control : </strong> Git, Github, Bitbucket, SourceTree<br></li>
+            <li><strong>Testing & Quality : </strong> JUnit, Mockito, Sonar<br></li>
+      </ul>
+
+         
+    </div>
+    <div class="skill-item">
+     
+      <ul>
+        
+        <li> <strong>IDEs & Utilities : </strong> Eclipse, VS Code, DBeaver, Mobaxterm<br></li>
+    
+        <li><strong>Concepts & Coding : </strong>  Microservices, Linux Commands, SOLID Principles, AI&ML , Data Science, Data Structures and Algorithms <br></li>
+        <li><strong>AIML Libraries:</strong> Python, NumPy, Pandas, Matplotlib, Seaborn<br></li>
+        <li><strong>Data Visualization:</strong> Dashboarding with Tableau<br></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+       <div id="services">
+    <div class="container">
+    <h1 class="sub-title"><i class="fas fa-cogs"></i> Services</h1>
+        <div class="services-list">
+            <ul>
+                <li>
+                    <i class="fas fa-laptop-code"></i>
+                    
+                    <strong>Frontend Development</strong><br><br> Building responsive and interactive web interfaces using HTML, CSS, JavaScript, and React.js, ensuring seamless user experiences and pixel-perfect designs.
+                </li>
+                <li>
+                    <i class="fas fa-server"></i>
+                    <strong>Backend Development</strong><br><br> Designing and implementing secure, scalable backend systems using Java, Spring Boot, and microservices architecture. Expertise in RESTful APIs, validation frameworks, and performance optimization.
+                </li>
+                <li>
+                    <i class="fas fa-database" ></i>
+                    <strong>Database Design & Integration</strong><br><br> Expert in MySQL, JDBC, Redis caching, and cloud-based database solutions (AWS RDS). Skilled in schema design, query optimization, and secure data handling.
+                </li>
+                <li>
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <strong>Cloud Deployment</strong><br><br> Deploying and managing applications on AWS (EC2, RDS, Secrets Manager) with knowledge of CI/CD pipelines, server management, and scaling strategies.
+                </li>
+                <li>
+                    <i class="fas fa-shield-alt"></i>
+                    <strong>Security Implementation</strong><br><br> Applying security best practices with Spring Security, JWT authentication, encryption (HmacSHA256, RSA), and vulnerability prevention techniques.
+                </li>
+                <li>
+                    <i class="fas fa-project-diagram"></i>
+                    <strong>System Design</strong><br><br>    Proficient in high-level and low-level system design, applying SOLID principles, design patterns, and microservices best practices for robust architecture.
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
+      <section class="portfolio" id="portfolio">
+          <h1 class="sub-title"><i class="fas fa-project-diagram"></i> Projects</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <a href="#portfolio"></a>
+                <img src="payment-gateway.png" alt="">
+                <div class="portfolio-layer">
+                    
+                    <h4> Core Payment Integration System</h4>
+                    <p>Built secure microservices-based payment system with validation, caching, and RSA/HMACSHA256 security for reliable transactions.</p>
+                        <a href="https://github.com/Sowjanya53295/E-commerce-Website" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="ecommerce.png" alt="">
+                <div class="portfolio-layer">
+                    <h4> E-Commerce Website (Spring Boot)</h4>
+                    <p>Developed modular microservices (Product, Cart, Order, User) with Spring Boot & MySQL for seamless shopping experience.</p>
+                        <a href="https://github.com/Sowjanya53295/E-commerce-Website" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="coffee.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Coffee Website</h4>
+                    <p>Created responsive coffee shop website with HTML, CSS, JS including animations, menu, and gallery for modern UI.</p>
+                        <a href="https://github.com/Sowjanya53295/coffee-website" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portifolio.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>Built personal portfolio site showcasing projects & skills with responsive design and clean UI/UX.</p>
+                        <a href="https://github.com/Sowjanya53295/portfolioo" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="fnd.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4> Fake News Detection (ML Project)</h4>
+                    <p>Implemented ML models with TF-IDF to classify real vs fake news using Python & scikit-learn.</p>
+                        <a href="https://github.com/Sowjanya53295/FakeNewsDetection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+        </div>
+    </section>
+        
+<div class="blogs" id="blogs">
+  <div class="container">
+    <a href="#blogs"></a>
+    <h1 class="sub-title"><i class="fas fa-newspaper"></i> Blogs</h1>
+
+    <div class="blogs-list">
+      <ul>
+        <li>
+          <i class="fas fa-server blog-icon"></i>
+          <strong>SOLID Principles</strong>  
+          Demystifying SRP, OCP, LSP, ISP, and DIP with Java + Spring Boot.  
+          <a href="https://substack.com/home/post/p-168031955" target="_blank" class="btn">Read Blog</a>
+        </li>
+
+        <li>
+          <i class="fas fa-server blog-icon"></i>
+          <strong>Microservices Principles</strong>  
+          Insights from Fowler & Lewis on building scalable and resilient services.  
+          <a href="https://substack.com/home/post/p-168380116" target="_blank" class="btn">Read Blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+        
+        
+       <br><br><div class="youtube" id="youtube">
+  <div class="container">
+    <a href="#youtube"></a>
+    <h1 class="sub-title"><i class="fab fa-youtube"></i> YouTube</h1>
+    <p>
+     “I create in-depth technical videos on Spring Boot, Microservices, and System Design, explaining complex concepts through real-world projects.”</p><br><br>
+
+    <div class="youtube-list">
+      <ul>
+         
+        <li>
+          <i class="fab fa-youtube"></i>
+          <strong>Basics of Spring Framework & Spring Boot</strong> 
+          <a href="https://youtu.be/mA9pcypYlzM" target="_blank">Watch here</a>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+          <strong>Spring Boot Auto Configuration & Rest Controller</strong> 
+          <a href="https://youtu.be/KNv_eSPzuRc" target="_blank">Watch here</a>
+        </li>
+       <li>
+          <i class="fab fa-youtube"></i>
+          <strong>Microservices Principles</strong> 
+          <a href="https://youtu.be/krbVh9pJDls" target="_blank">Watch here</a>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+          <strong>REST Standards</strong> 
+          <a href="https://youtu.be/rg47cehIb6o" target="_blank">Watch here</a>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+          <strong>Payment Domain - End-to-end Project Diagram</strong> 
+          <a href="https://youtu.be/GS5epmPamIQ" target="_blank">Watch here</a>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+          <strong>Validator Framework Approach & Low-level System Design</strong> 
+          <a href="https://youtu.be/OLtYWgDXkCw" target="_blank">Watch here</a>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+          <strong>Validation Service with REST, Lombok, SLF4J</strong> 
+          <a href="https://youtu.be/q5KL-2RXtFM" target="_blank">Watch here</a>
+        </li>
+        
+        <li>
+          <i class="fab fa-youtube"></i>
+          <strong>Validation Service & Package Standards</strong> 
+          <a href="https://youtu.be/Nxi_pe4alIU" target="_blank">Watch here</a>
+        </li>
+        <li>
+          <i class="fab fa-youtube"></i>
+          <strong>Bitbucket And Sourcetree</strong> 
+          <a href="https://youtu.be/Zv7nVEm2srA" target="_blank">Watch here</a>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="communication" id="communication">
+  <h1 class="sub-title"><i class="fas fa-language"></i> Communication Languages</h1>
+
+  <div class="lang-skill">
+    <p>English</p>
+    <div class="progress-bar">
+      <div class="progress" style="width: 90%;">90%</div>
+    </div>
+  </div>
+
+  <div class="lang-skill">
+    <p>Telugu</p>
+    <div class="progress-bar">
+      <div class="progress" style="width: 100%;">100%</div>
+    </div>
+  </div>
+</div>
+
+     
+             <!--contact section-->
+           <br><br> <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                          <h1 class="sub-title"><i class="fas fa-envelope"></i> Contact</h1>
+                            <p><i class="bx bx-envelope"></i>mandadapusowjanya3@gmail.com</p>
+                             <div class="social-media">
+               <p><a href="https://github.com/Sowjanya53295?tab=repositories"</a><i class="bxl bx-github" ></i> Github </p>
+               <p><a href="https://www.linkedin.com/in/mandadapu-sowjanya-698a97274/" </a><i class='bxl  bx-linkedin'></i> LinkedIn </p>
+                 <p><i class="fas fa-map-marker-alt"></i>  Hyderabad, India</p>
+            </div>
+                            <a href="MANDADAPU SOWJANYA .pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name"
+                                    placeholder="Your Name" required>
+                                <input type="email" name="Email"
+                                    placeholder="Your email" required>
+                                <textarea name="Message" rows="6"
+                                    placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                     <div class="social-links">
+                    Copyright &copy; 2025 by Sowjanya | All Rights Reserved. <br><br>
+      <p><a href="https://www.linkedin.com/in/mandadapu-sowjanya-698a97274/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Sowjanya53295?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="mailto:mandadapusowjanya3@gmail.com"><i class="fas fa-envelope"></i></a></p>
+    </div>
+    </div>
+                </div>
+            </div>
+             
+        
+       
+    
+            <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");  
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById(sidemenu);
+        function openmenu(){
+          sidemenu.style.right ="0" 
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px" 
+          }
+    </script>
+    <script>
+  const openBtn = document.getElementById("open-btn");
+  const closeBtn = document.getElementById("close-btn");
+  const navLinks = document.getElementById("nav-links");
+
+  openBtn.addEventListener("click", () => {
+    navLinks.classList.add("show");
+    openBtn.style.display = "none";   // Hide open button
+    closeBtn.style.display = "block"; // Show close button
+  });
+
+  closeBtn.addEventListener("click", () => {
+    navLinks.classList.remove("show");
+    closeBtn.style.display = "none";  // Hide close button
+    openBtn.style.display = "block";  // Show open button again
+  });
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzJQN-YeCgdgh_s8dCHEEKVLbt2pGF2-kXvib1VSD7R3sz3a1QqndQy2xISS4Z0P2TTtw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = " Message sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000) 
+        form.reset()})
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+        </body>
+    </html>
